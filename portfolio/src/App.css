@@ -1,5 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* a:link {
+  color: #61dafb;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #61dafb;
+  text-decoration: underline;
+} */
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #111122;
 }
 
 .App-logo {
@@ -13,19 +30,162 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.project-container {
+  /* min-height: 100vh; */
+  max-width: 1920px;
+  display: block;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: right;
+  justify-items: right;
+  /* align-items: center;
+  justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-bottom: 6%;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.newlands-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* height: 600px; */
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #00000077;
+  border: solid;
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-color: #67676727;
+  /* height: 200px; */
+  /* height: 20vw; */
+  max-height: 400px;
+  width: 100%;
+  /* padding-top: 6px; */
+  padding-left: 22%;
+  padding-right: 12px;
+}
+
+.content-container {
+  /* background-color: red; */
+  /* position: inherit; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  width: 100%;
+  padding: 1%;
+  /* height: 100%; */
+  height:max-content;
+}
+
+.tool-icon-container {
+  display: flex;
+  flex-direction: row;
+  /* margin: 0; */
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+  /* background-color: darkcyan; */
+}
+
+.tool-icon {
+  /* background-color: aliceblue; */
+  width: 6vw;
+  max-width: 120px;
+  height: 6vw;
+  max-height: 120px;
+  margin: 1%;
+}
+
+.tool-divider {
+  background-color: aliceblue;
+  border-radius: 2px;
+  width: 0.25vw;
+  /* border-width: 5px; */
+  /* max-width: 120px; */
+  height: 5vw;
+  max-height: 120px;
+  /* margin: 1%; */
+  margin-left: 1%;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: -5.5%;
+  margin-right: 8%;
+  align-items: center;
+  justify-content: right;
+  /* background-color: black; */
+}
+
+.thumbnail {
+  /* background-color: aliceblue; */
+  border: solid;
+  border-width: 4px;
+  border-color: #67676727;
+  border-radius: 8px;
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+  /* width: 6vw;
+  max-width: 120px; */
+  height: 9vw;
+  max-height: 120px;
+  margin: 1%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.shard-01 {
+  /* position: inherit; */
+  max-height: 600px;
+  width: 50%;
+  margin-right: -22%;
+  margin-left: -10%;
+  z-index: 1;
+  /* top: -200px;
+  left: -40%; */
+}
+
+.content-text {
+  /* position: relative; */
+  margin: 0;
+  font-family: 'Roboto';
+  /* font-size: 20px; */
+  font-size: 2vw;
+}
+
+/* Stops the text from continuing to grow on wide screens. */
+@media screen and (min-width: 1920px) {
+  .content-text {
+    font-size: 38px;
+  }
+}
+
+.newlands-title {
+  /* font-size: 50px; */
+  /* text-align: right; */
+  margin: 0;
+  margin-left: 35%;
+  margin-bottom: -5%;
+  height: 8vw;
+  max-height: 150px;
+  /* float: left; */
+  /* padding-right: 80px; */
+  /* padding-bottom: 10px; */
 }
 
 @keyframes App-logo-spin {
