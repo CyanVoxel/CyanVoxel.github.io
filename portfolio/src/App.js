@@ -34,7 +34,7 @@ function App() {
           <div className="content-bg">
             <div className="content-container">
               <p className="content-text">
-                A digital tabletop game about staking your claim in an unknown territory! Make strategic investments, devious sabotages, and with a little bit of market manipulating, become the next land baron billionaire! <a style={{ color: "#61dafb", textDecoration: "underline" }} href="https://github.com/CyanVoxel/Newlands">GitHub Link</a>
+                A digital tabletop game about staking your claim in an unknown territory! Make strategic investments, devious sabotages, and with a little bit of market manipulating, become the next land baron billionaire! <a style={{ color: "#61dafb", textDecoration: "underline" }} href="https://github.com/CyanVoxel/Newlands" target="_blank">GitHub Link</a>
               </p>
               <div className="tool-icon-container">
                 <img src={c_sharp_logo} className="tool-icon" alt="C#"></img>
