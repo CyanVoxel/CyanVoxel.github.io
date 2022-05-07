@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import inset_logo from "./images/inset_logo.png";
 import shard_01 from "./images/shard_01.png";
 import shard_02 from "./images/shard_02.png";
 import shard_03 from "./images/shard_03.png";
@@ -34,13 +35,14 @@ function App() {
   return (
     <div className="App">
       <div className="intro-container">
-        <img src={logo} className="intro-profile" />
+        <img src={inset_logo} className="intro-profile" />
         <div className="text-container">
           <p className="hello-text">Hi there, I'm</p>
           <p className="name-text">Travis Abendshien_</p>
-          <p className="hello-text">
-            I'm a software engineer blah blah blah, here are some of the
-            projects I've worked on:
+          <p className="bio-text">
+            I'm a software engineer with a passion for working on anything from
+            games to utilities. Below are a few of the things I've
+            worked on:
           </p>
         </div>
       </div>
