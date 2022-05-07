@@ -17,10 +17,15 @@ import heroku_logo_text from "./images/logos/heroku_logo_text.svg";
 import linkedin_logo from "./images/logos/linkedin_logo.svg";
 import github_logo from "./images/logos/github_logo.svg";
 import email_logo from "./images/logos/email.svg";
-import thumb_01 from "./images/screenshots/thumb_01.png";
-import thumb_02 from "./images/screenshots/thumb_02.png";
-import thumb_03 from "./images/screenshots/thumb_03.png";
+import newlands_01 from "./images/screenshots/newlands_01.jpg";
+import newlands_02 from "./images/screenshots/newlands_02.jpg";
+import newlands_03 from "./images/screenshots/newlands_03.jpg";
+import solutions_01 from "./images/screenshots/solutions_01.jpg";
+import solutions_02 from "./images/screenshots/solutions_02.jpg";
+import solutions_03 from "./images/screenshots/solutions_03.jpg";
 import photoreal_01 from "./images/screenshots/photoreal_01.jpg";
+import photoreal_02 from "./images/screenshots/photoreal_02.jpg";
+import photoreal_03 from "./images/screenshots/photoreal_03.jpg";
 import React, { useEffect, useState } from "react";
 import "./App.css";
 
@@ -107,9 +112,9 @@ function App() {
           </div>
         </div>
         <div className="thumbnail-container">
-          <img className="thumbnail" src={thumb_01}></img>
-          <img className="thumbnail" src={thumb_02}></img>
-          <img className="thumbnail" src={thumb_03}></img>
+          <img className="thumbnail" src={newlands_01}></img>
+          <img className="thumbnail" src={newlands_02}></img>
+          <img className="thumbnail" src={newlands_03}></img>
         </div>
       </div>
 
@@ -168,10 +173,10 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="thumbnail-container">
-          <img className="thumbnail" src={thumb_01} />
-          <img className="thumbnail" src={thumb_02} />
-          <img className="thumbnail" src={thumb_03} />
+        <div className="thumbnail-container" style={{marginRight: "14%"}}>
+          <img className="thumbnail" src={solutions_01} />
+          <img className="thumbnail" src={solutions_02} style={{aspectRatio: "1 / 1"}}/>
+          <img className="thumbnail" src={solutions_03} style={{aspectRatio: "9 / 16"}} />
         </div>
       </div>
 
@@ -229,8 +234,8 @@ function App() {
         </div>
         <div className="thumbnail-container" style={{ marginRight: "17%" }}>
           <img className="thumbnail-vertical" src={photoreal_01} />
-          <img className="thumbnail-vertical" src={thumb_02} />
-          <img className="thumbnail-vertical" src={thumb_03} />
+          <img className="thumbnail-vertical" src={photoreal_02} />
+          <img className="thumbnail-vertical" src={photoreal_03} />
         </div>
       </div>
       <footer className="footer">
