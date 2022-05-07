@@ -52,20 +52,21 @@ a:visited {
   height: 300px; */
 }
 
-.social-link {
-  /* background-color: whitesmoke; */
-  width: 3vw;
-  height: 3vw;
-  margin: 0.4vw;
-}
-
 .intro-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 5%;
+  margin-top: 20vh;
   max-width: 1920px;
+}
+
+.social-link {
+  /* background-color: whitesmoke; */
+  width: 48px;
+  height: 48px;
+  margin: 6px;
 }
 
 .intro-profile {
@@ -262,12 +263,7 @@ a:visited {
   left: -40%; */
 }
 
-/* Stops the text from continuing to grow on wide screens. */
-@media screen and (min-width: 1920px) {
-  .content-text {
-    font-size: 38px;
-  }
-}
+
 
 .newlands-title {
   /* font-size: 50px; */
@@ -306,6 +302,57 @@ a:visited {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding-right: 2vh;
+}
+
+/* Mobile Optimizations */
+@media screen and (max-width: 600px){
+
+  .header {
+    display: none;
+  }
+
+  .footer {
+    z-index: 2;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .footer .social-link {
+    /* width: 10vw;
+    height: 10vw; */
+    /* padding-top: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 2vw; */
+  }
+
+  .footer p {
+    font-size: 7vw;
+    padding-right: 2vh;
+  }
+}
+
+/* Stops the text from continuing to grow on wide screens. */
+@media screen and (min-width: 1920px) {
+  .content-text {
+    font-size: 38px;
+  }
+  .name-text {
+    font-size: 150px;
+    line-height: 150px;
+  }
+  .hello-text {
+    font-size: 60px;
+  }
+  .bio-text {
+    font-size: 40px;
+  }
+  header .social-link {
+    /* background-color: whitesmoke; */
+    width: 60px;
+    height: 60px;
+    margin: 6px;
+  }  
 }
 
 @keyframes App-logo-spin {
