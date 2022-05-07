@@ -9,12 +9,14 @@ import photoreal_logo from "./images/logos/photoreal_logo_text.svg";
 import c_sharp_logo from "./images/logos/c_sharp_logo.svg";
 import javascript_logo from "./images/logos/javascript_logo.svg";
 import swift_logo from "./images/logos/swift_logo.svg";
-import unity_logo from "./images/unity.svg";
 import unity_logo_text from "./images/logos/unity_logo_text.svg";
 import blender_logo_text from "./images/logos/blender_logo_text.svg";
 import affinity_photo_logo_text from "./images/logos/affinity_photo_logo_text.svg";
 import photoshop_logo_text from "./images/logos/photoshop_logo_text.svg";
 import heroku_logo_text from "./images/logos/heroku_logo_text.svg";
+import linkedin_logo from "./images/logos/linkedin_logo.svg";
+import github_logo from "./images/logos/github_logo.svg";
+import email_logo from "./images/logos/email.svg";
 import thumb_01 from "./images/screenshots/thumb_01.png";
 import thumb_02 from "./images/screenshots/thumb_02.png";
 import thumb_03 from "./images/screenshots/thumb_03.png";
@@ -34,6 +36,19 @@ function App() {
 
   return (
     <div className="App">
+      <header className="header">
+        <a href="https://www.linkedin.com/in/travis-abendshien" target="_blank">
+          <img src={linkedin_logo} className="social-link" alt="LinkedIn" />
+        </a>
+
+        <a href="https://github.com/CyanVoxel" target="_blank">
+          <img src={github_logo} className="social-link" alt="GitHub" />
+        </a>
+        <a href="mailto:lvnvtravis@gmail.com">
+          <img src={email_logo} className="social-link" alt="Email" />
+        </a>
+      </header>
+
       <div className="intro-container">
         <img src={inset_logo} className="intro-profile" />
         <div className="text-container">
@@ -41,8 +56,7 @@ function App() {
           <p className="name-text">Travis Abendshien_</p>
           <p className="bio-text">
             I'm a software engineer with a passion for working on anything from
-            games to utilities. Below are a few of the things I've
-            worked on:
+            games to utilities. Here are a few of the things I've worked on:
           </p>
         </div>
       </div>
@@ -155,9 +169,9 @@ function App() {
           </div>
         </div>
         <div className="thumbnail-container">
-          <img className="thumbnail" src={thumb_01}></img>
-          <img className="thumbnail" src={thumb_02}></img>
-          <img className="thumbnail" src={thumb_03}></img>
+          <img className="thumbnail" src={thumb_01} />
+          <img className="thumbnail" src={thumb_02} />
+          <img className="thumbnail" src={thumb_03} />
         </div>
       </div>
 
@@ -219,6 +233,19 @@ function App() {
           <img className="thumbnail-vertical" src={thumb_03} />
         </div>
       </div>
+      <footer className="footer">
+        <p>Get in touch:</p>
+        <a href="https://www.linkedin.com/in/travis-abendshien" target="_blank">
+          <img src={linkedin_logo} className="social-link" alt="LinkedIn" />
+        </a>
+
+        <a href="https://github.com/CyanVoxel" target="_blank">
+          <img src={github_logo} className="social-link" alt="GitHub" />
+        </a>
+        <a href="mailto:lvnvtravis@gmail.com">
+          <img src={email_logo} className="social-link" alt="Email" />
+        </a>
+      </footer>
     </div>
   );
 }
