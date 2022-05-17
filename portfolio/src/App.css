@@ -10,6 +10,10 @@ a:visited {
   text-decoration: underline;
 } */
 
+span {
+  display: inline-block;
+}
+
 .App {
   text-align: center;
   display: flex;
@@ -17,7 +21,7 @@ a:visited {
   align-items: center;
   justify-content: center;
   /* background-color: #111122; */
-  background-image: linear-gradient(#111122, #111122, #221122);
+  background-image: linear-gradient(#231536, #171e3d, #141429, #221122, #221122);
 }
 
 .App-logo {
@@ -77,7 +81,7 @@ a:visited {
 }
 
 .hello-text {
-  color: rgb(221, 201, 255);
+  color: #DFC6FF;
   font-size: 3vw;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -98,7 +102,7 @@ a:visited {
 }
 
 .bio-text {
-  color: rgb(138, 234, 177);
+  color: #c6cdff;
   font-size: 2vw;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -116,9 +120,93 @@ a:visited {
   /* align-items: center;
   justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: white;
   margin-bottom: 12vh;
   margin-top: 1%;
+}
+
+.desktop-project-container {
+  display: flex;
+  /* flex-basis: auto; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  margin-bottom: 10%;
+}
+
+.desktop-project-shard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 30%;
+  /* width: 33%; */
+  /* width: 100%;
+  height: 100%; */
+  /* flex-basis: 1; */
+  /* flex-grow: 1; */
+  margin: 0;
+  padding: 0;
+}
+
+.shard {
+  /* position: inherit; */
+  /* max-height: 600px; */
+  width: 180%;
+  margin-left: -20%;
+  /* max-width: 600px; */
+  /* flex-basis: 1; */
+  /* flex-grow: 1; */
+  /* width: 110%; */
+  /* margin-right: -22%;
+  margin-left: -10%; */
+  z-index: 1;
+  /* top: -200px;
+  left: -40%; */
+}
+
+.project-content {
+  /* flex: 0 0 80%; */
+  /* flex-basis: 2; */
+  /* flex-grow: 3 */
+}
+
+.project-title {
+  /* font-size: 50px; */
+  /* text-align: right; */
+  /* margin: 0;
+  margin-left: 37%; */
+  margin-bottom: 1%;
+  height: 7.5vw;
+  max-height: 150px;
+  /* float: left; */
+  /* padding-right: 80px; */
+  /* padding-bottom: 10px; */
+}
+
+/* svg {
+  fill:white;
+} */
+
+.project-text-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(0, 3, 12, 0.647);
+  border: solid;
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-color: #45556c27;
+  overflow: hidden;
+  /* height: 200px; */
+  /* height: 20vw; */
+  max-height: 400px;
+  width: 100%;
+  /* padding-top: 6px; */
+  padding-left: 22%;
+  padding-right: 56px;
 }
 
 .App-link {
@@ -140,9 +228,10 @@ a:visited {
   /* position: inherit; */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   margin: 0;
-  width: 100%;
+  width: 75%;
   padding: 1%;
   /* height: 100%; */
   height: max-content;
@@ -150,32 +239,36 @@ a:visited {
 
 .content-bg {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
   background-color: rgba(0, 3, 12, 0.647);
   border: solid;
-  border-top-width: 4px;
-  border-bottom-width: 4px;
+  border-top-width: 0.4vw;
+  border-bottom-width: 0.4vw;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #45556c27;
   overflow: hidden;
   /* height: 200px; */
   /* height: 20vw; */
-  max-height: 400px;
-  width: 100%;
+  /* max-height: 400px; */
+  /* width: 100%; */
   /* padding-top: 6px; */
-  padding-left: 22%;
-  padding-right: 56px;
+  /* padding-left: 22%;
+  padding-right: 56px; */
 }
 
 .content-text {
   /* position: relative; */
   margin: 0;
+  color: white;
   font-family: "Roboto", sans-serif;
   /* font-size: 20px; */
   font-size: 2vw;
 }
+
+
 
 .tool-icon-container {
   display: flex;
@@ -183,46 +276,54 @@ a:visited {
   /* margin: 0; */
   align-items: center;
   justify-content: center;
-  margin-top: 1%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  /* padding-left: 2%;
+  padding-right: 2%; */
   /* background-color: darkcyan; */
 }
 
 .tool-icon {
   /* background-color: aliceblue; */
-  width: 6vw;
-  max-width: 120px;
+  /* width: 6vw;
+  max-width: 120px; */
   height: 6vw;
   max-height: 120px;
-  margin: 1%;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
 }
 
 .tool-divider {
   background-color: aliceblue;
   border-radius: 2px;
-  width: 0.25vw;
+  /* width: 0.25vw; */
+  min-width: 0.25vw;
+  /* max-width: 1px; */
   /* border-width: 5px; */
   /* max-width: 120px; */
   height: 5vw;
   max-height: 120px;
   /* margin: 1%; */
-  margin-left: 1%;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .thumbnail-container {
   display: flex;
   flex-direction: row;
-  margin-top: -5.5%;
-  margin-right: 6%;
+  /* margin-top: -5.5%; */
+  /* margin-right: 6%; */
   align-items: center;
-  justify-content: right;
+  justify-content: center;
   /* background-color: black; */
 }
 
 .thumbnail {
   /* background-color: aliceblue; */
+  /* background-color: rgba(0, 3, 12, 0.647); */
   border: solid;
-  border-width: 4px;
-  border-color: #67676727;
+  border-width: 0.4vw;
+  border-color: #45556c27;
   border-radius: 8px;
   object-fit: cover;
   aspect-ratio: 16 / 9;
@@ -231,15 +332,16 @@ a:visited {
   height: 9vw;
   max-height: 160px;
   margin: 1%;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
+  margin-left: 0.75%;
+  margin-right: 0.75%;
 }
 
 .thumbnail-vertical {
   /* background-color: aliceblue; */
+  /* background-color: rgba(0, 3, 12, 0.647); */
   border: solid;
   border-width: 4px;
-  border-color: #67676727;
+  border-color: #45556c27;
   border-radius: 8px;
   object-fit: cover;
   aspect-ratio: 9 / 16;
@@ -248,8 +350,8 @@ a:visited {
   height: 14vw;
   max-height: 260px;
   margin: 1%;
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 0.75%;
+  margin-right: 0.75%;
 }
 
 .shard-01 {
@@ -262,8 +364,6 @@ a:visited {
   /* top: -200px;
   left: -40%; */
 }
-
-
 
 .newlands-title {
   /* font-size: 50px; */
@@ -297,18 +397,104 @@ a:visited {
 }
 
 .footer p {
-  font-size: 3vw;
-  color: white;
+  font-size: 40px;
+  color: #c6cdff;
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding-right: 2vh;
 }
 
 /* Mobile Optimizations */
-@media screen and (max-width: 600px){
-
+@media screen and (max-width: 640px) {
   .header {
     display: none;
+  }
+
+  /* .intro-profile {
+    width: 30%;
+    margin-right: 4%;
+  } */
+
+  .intro-container {
+    margin-top: 6vh;
+    margin-bottom: 8vh;
+  }
+
+  .intro-profile {
+    margin-top: -12%;
+  }
+  
+  .hello-text {
+    font-size: 4vw;
+  }
+  
+  .name-text {
+    color: #32d9ff;
+    font-size: 10vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    text-align: left;
+    line-height: 10vw;
+    margin: 0;
+    margin-bottom: 2%;
+    margin-top: 1%;
+  }
+
+  .bio-text {
+    font-size: 3vw;
+  }
+
+  .desktop-project-container {
+    margin-bottom: 20%;
+  }
+
+  .project-title {
+    margin-bottom: 1%;
+    height: 12vw;
+    max-height: 400px;
+  }
+
+  .shard {
+    display: none;
+  }
+
+  .desktop-project-shard {
+    flex: 0 0 0%;
+  }
+
+  .content-container {
+    width: 90%;
+  }
+
+  .content-text {
+    font-size: 4vw;
+    margin-top: 1%;
+    margin-bottom: 2%;
+  }
+
+  .tool-icon-container {
+    margin-bottom: 2%;
+  }
+
+  .tool-icon {
+    /* width: 12vw; */
+    height: 12vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+  .tool-divider {
+    /* border-radius: 2px; */
+    min-width: 0.4vw;
+    height: 10vw;
+  }
+
+  .thumbnail {
+    height: 16vw;
+  }
+
+  .thumbnail-vertical {
+    height: 28vw;
   }
 
   .footer {
@@ -335,6 +521,10 @@ a:visited {
 
 /* Stops the text from continuing to grow on wide screens. */
 @media screen and (min-width: 1920px) {
+  /* .project-container {
+    max-width: 1920px;
+  } */
+  
   .content-text {
     font-size: 38px;
   }
@@ -353,7 +543,24 @@ a:visited {
     width: 60px;
     height: 60px;
     margin: 6px;
-  }  
+  }
+
+  .content-bg {
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+  }
+
+  .thumbnail {
+    border-width: 4px;
+  }
+
+  .tool-divider {
+    min-width: 4px;
+  }
+
+  .footer p {
+    font-size: 56px;
+  }
 }
 
 @keyframes App-logo-spin {
