@@ -7,7 +7,7 @@ export const newlands_logo = (
     version="1.1"
     viewBox="0 0 1672 251"
     xmlns="http://www.w3.org/2000/svg"
-    className="project-title"
+    className="bp-title"
   >
     <title>Newlands</title>
     <g transform="translate(-1125 -51.998)">
@@ -29,7 +29,7 @@ export const solutions_logo = (
     version="1.1"
     viewBox="0 0 594 87"
     xmlns="http://www.w3.org/2000/svg"
-    className="project-title"
+    className="bp-title"
   >
     <title>Solutions</title>
     <g transform="translate(298.48 87.016)">
@@ -108,7 +108,7 @@ export const photoreal_logo = (
     version="1.1"
     viewBox="0 0 1061 151"
     xmlns="http://www.w3.org/2000/svg"
-    className="project-title"
+    className="bp-title"
   >
     <title>Photo Real</title>
     <g transform="translate(-117 -381.79)">
@@ -197,7 +197,7 @@ export const c_sharp_logo = (
     version="1.1"
     viewBox="0 0 2223 2500"
     xmlns="http://www.w3.org/2000/svg"
-    className="tool-icon"
+    className="bp-tool-icon"
   >
     <title>C-Sharp</title>
     <g transform="matrix(1.01 0 0 1.01 -151 -12.23)">
@@ -219,7 +219,7 @@ export const javascript_logo = (
     version="1.1"
     viewBox="0 0 630 630"
     xmlns="http://www.w3.org/2000/svg"
-    className="tool-icon"
+    className="bp-tool-icon"
   >
     <title>Java script</title>
     <path
@@ -238,7 +238,7 @@ export const swift_logo = (
     version="1.1"
     viewBox="0 0 119 119"
     xmlns="http://www.w3.org/2000/svg"
-    className="tool-icon"
+    className="bp-tool-icon"
   >
     <title>Swift</title>
     <path
@@ -257,7 +257,7 @@ export const unity_logo_text = (
     version="1.1"
     viewBox="0 0 665 1e3"
     xmlns="http://www.w3.org/2000/svg"
-    className="tool-icon"
+    className="bp-tool-icon"
   >
     <title>Unity Engine</title>
     <g transform="matrix(2 0 0 2 -167.63 -.0005459)">
@@ -288,7 +288,7 @@ export const photoshop_logo_text = (
     version="1.1"
     viewBox="0 0 1e3 1e3"
     xmlns="http://www.w3.org/2000/svg"
-    className="tool-icon"
+    className="bp-tool-icon"
   >
     <title>Adobe Photoshop CC</title>
     <g transform="matrix(3.125 0 0 3.2051 125 5.6934e-14)">
@@ -374,7 +374,7 @@ export const blender_logo_text = (
     version="1.1"
     viewBox="0 0 1e3 1e3"
     xmlns="http://www.w3.org/2000/svg"
-    className="tool-icon"
+    className="bp-tool-icon"
   >
     <title>Blender</title>
     <g transform="matrix(8.6021 0 0 8.602 -2352.3 3740.4)" fill="#currentColor">
@@ -422,7 +422,7 @@ export const heroku_logo_text = (
     stroke-miterlimit="2"
     viewBox="0 0 1e3 1e3"
     xmlns="http://www.w3.org/2000/svg"
-    className="tool-icon"
+    className="bp-tool-icon"
   >
     <title>Heroku Cloud Platform</title>
     <path

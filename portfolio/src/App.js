@@ -53,15 +53,11 @@ function App() {
           target="_blank"
           rel="noreferrer"
         >
-          <span style={{ fill: bio_accent }}>
-            {svg_images.linkedin_logo}
-          </span>
+          <span style={{ fill: bio_accent }}>{svg_images.linkedin_logo}</span>
         </a>
 
         <a href="https://github.com/CyanVoxel" target="_blank" rel="noreferrer">
-          <span style={{ fill: bio_accent }}>
-            {svg_images.github_logo}
-          </span>
+          <span style={{ fill: bio_accent }}>{svg_images.github_logo}</span>
         </a>
         <a href="mailto:lvnvtravis@gmail.com">
           <span style={{ fill: bio_accent }}>{svg_images.email_logo}</span>
@@ -82,17 +78,17 @@ function App() {
       </div>
 
       {/* Newlands */}
-      <div className="desktop-project-container">
-        <div className="desktop-project-shard">
+      <div className="bp-container">
+        <div className="shard-container">
           <img src={shard_01} className="shard" alt="" />
         </div>
-        <div className="project-content">
+        <div className="bp-content">
           <span style={{ fill: newlands_accent }}>
             {svg_images.newlands_logo}
           </span>
-          <div className="content-bg">
-            <div className="content-container">
-              <p className="content-text" style={{ color: newlands_accent }}>
+          <div className="bp-description-bg">
+            <div className="bp-description-container">
+              <p style={{ color: newlands_accent }}>
                 A digital tabletop game about staking your claim in an unknown
                 territory! Make strategic investments, devious sabotages, and
                 with a little bit of market manipulating, become the next land
@@ -106,12 +102,12 @@ function App() {
                   GitHub Link
                 </a>
               </p>
-              <div className="tool-icon-container">
+              <div className="bp-tool-icon-container">
                 <span style={{ fill: newlands_accent }}>
                   {svg_images.c_sharp_logo}
                 </span>
                 <div
-                  className="tool-divider"
+                  className="bp-tool-divider"
                   style={{ backgroundColor: newlands_accent }}
                 ></div>
                 <span style={{ fill: newlands_accent }}>
@@ -126,17 +122,17 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="thumbnail-container">
-            <img className="thumbnail" src={newlands_01} alt=""></img>
-            <img className="thumbnail" src={newlands_02} alt=""></img>
-            <img className="thumbnail" src={newlands_03} alt=""></img>
+          <div className="bp-thumbnail-container">
+            <img className="bp-thumbnail" src={newlands_01} alt=""></img>
+            <img className="bp-thumbnail" src={newlands_02} alt=""></img>
+            <img className="bp-thumbnail" src={newlands_03} alt=""></img>
           </div>
         </div>
       </div>
 
       {/* Solutions */}
-      <div className="desktop-project-container">
-        <div className="desktop-project-shard">
+      <div className="bp-container">
+        <div className="shard-container">
           <img
             src={shard_02}
             className="shard"
@@ -144,13 +140,13 @@ function App() {
             style={{ width: "160%", marginTop: "-10%" }}
           />
         </div>
-        <div className="project-content">
+        <div className="bp-content">
           <span style={{ fill: solutions_accent }}>
             {svg_images.solutions_logo}
           </span>
-          <div className="content-bg">
-            <div className="content-container">
-              <p className="content-text" style={{ color: solutions_accent }}>
+          <div className="bp-description-bg">
+            <div className="bp-description-container">
+              <p style={{ color: solutions_accent }}>
                 A liquid simulation game where color is key! Mix and match your
                 vials from a faucet of ever-changing colored liquid to find the
                 optimal solution!{" "}
@@ -163,7 +159,7 @@ function App() {
                   Play in Browser!
                 </a>
               </p>
-              <div className="tool-icon-container">
+              <div className="bp-tool-icon-container">
                 <span style={{ fill: solutions_accent }}>
                   {svg_images.c_sharp_logo}
                 </span>
@@ -171,7 +167,7 @@ function App() {
                   {svg_images.javascript_logo}
                 </span>
                 <div
-                  className="tool-divider"
+                  className="bp-tool-divider"
                   style={{ backgroundColor: solutions_accent }}
                 ></div>
                 <span style={{ fill: solutions_accent }}>
@@ -186,16 +182,16 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="thumbnail-container">
-            <img className="thumbnail" src={solutions_01} alt="" />
+          <div className="bp-thumbnail-container">
+            <img className="bp-thumbnail" src={solutions_01} alt="" />
             <img
-              className="thumbnail"
+              className="bp-thumbnail"
               src={solutions_02}
               style={{ aspectRatio: "1 / 1" }}
               alt=""
             />
             <img
-              className="thumbnail"
+              className="bp-thumbnail"
               src={solutions_03}
               style={{ aspectRatio: "9 / 16" }}
               alt=""
@@ -205,8 +201,8 @@ function App() {
       </div>
 
       {/* PhotoReal */}
-      <div className="desktop-project-container">
-        <div className="desktop-project-shard">
+      <div className="bp-container">
+        <div className="shard-container">
           <img
             src={shard_03}
             className="shard"
@@ -214,13 +210,13 @@ function App() {
             style={{ width: "170%", marginTop: "-10%", marginRight: "-8%" }}
           />
         </div>
-        <div className="project-content">
+        <div className="bp-content">
           <span style={{ fill: photoreal_accent }}>
             {svg_images.photoreal_logo}
           </span>
-          <div className="content-bg">
-            <div className="content-container">
-              <p className="content-text" style={{ color: photoreal_accent }}>
+          <div className="bp-description-bg">
+            <div className="bp-description-container">
+              <p style={{ color: photoreal_accent }}>
                 An AR photo library app that combines your physical and digital
                 photo albums! Scan and tag your physical photos, and PhotoReal
                 will let you attach additional digital photos that you can view
@@ -237,12 +233,12 @@ function App() {
                   View Demo on YouTube!
                 </a>
               </p>
-              <div className="tool-icon-container">
+              <div className="bp-tool-icon-container">
                 <span style={{ fill: photoreal_accent }}>
                   {svg_images.swift_logo}
                 </span>
                 <div
-                  className="tool-divider"
+                  className="bp-tool-divider"
                   style={{ backgroundColor: photoreal_accent }}
                 ></div>
                 <span style={{ fill: photoreal_accent }}>
@@ -251,10 +247,10 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="thumbnail-container">
-            <img className="thumbnail-vertical" src={photoreal_01} alt="" />
-            <img className="thumbnail-vertical" src={photoreal_02} alt="" />
-            <img className="thumbnail-vertical" src={photoreal_03} alt="" />
+          <div className="bp-thumbnail-container">
+            <img className="bp-thumbnail-vertical" src={photoreal_01} alt="" />
+            <img className="bp-thumbnail-vertical" src={photoreal_02} alt="" />
+            <img className="bp-thumbnail-vertical" src={photoreal_03} alt="" />
           </div>
         </div>
       </div>
@@ -266,15 +262,11 @@ function App() {
           target="_blank"
           rel="noreferrer"
         >
-          <span style={{ fill: bio_accent }}>
-            {svg_images.linkedin_logo}
-          </span>
+          <span style={{ fill: bio_accent }}>{svg_images.linkedin_logo}</span>
         </a>
 
         <a href="https://github.com/CyanVoxel" target="_blank" rel="noreferrer">
-          <span style={{ fill: bio_accent }}>
-            {svg_images.github_logo}
-          </span>
+          <span style={{ fill: bio_accent }}>{svg_images.github_logo}</span>
         </a>
         <a href="mailto:lvnvtravis@gmail.com">
           <span style={{ fill: bio_accent }}>{svg_images.email_logo}</span>
