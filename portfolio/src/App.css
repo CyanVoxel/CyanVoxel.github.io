@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
 span {
   display: inline-block;
@@ -16,12 +17,9 @@ span {
     #171e3d,
     #141429,
     #221122,
-    #221122
+    #221122,
+    #171e3d
   );
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .header {
@@ -54,7 +52,9 @@ span {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: -3%;
   margin-top: 20vh;
   max-width: 1920px;
 }
@@ -65,7 +65,7 @@ span {
 }
 
 .hello-text {
-  color: #dfc6ff;
+  /* color: #dfc6ff; */
   font-size: 3vw;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -86,7 +86,7 @@ span {
 }
 
 .bio-text {
-  color: #c6cdff;
+  /* color: #c6cdff; */
   font-size: 2vw;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -101,7 +101,7 @@ span {
   justify-content: center;
   align-items: center;
   max-width: 1920px;
-  margin-bottom: 10%;
+  margin-top: 10%;
 }
 
 .shard-container {
@@ -132,8 +132,8 @@ span {
   justify-content: space-between;
   background-color: rgba(0, 3, 12, 0.647);
   border: solid;
-  border-top-width: 4px;
-  border-bottom-width: 4px;
+  border-top-width: 0.4vw;
+  border-bottom-width: 0.4vw;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #45556c27;
@@ -186,7 +186,7 @@ span {
   font-size: 2vw;
 }
 
-.bp-tool-icon-container {
+.tool-icon-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -195,14 +195,14 @@ span {
   margin-bottom: 1%;
 }
 
-.bp-tool-icon {
+.tool-icon {
   height: 6vw;
   max-height: 120px;
   margin-left: 0.5vw;
   margin-right: 0.5vw;
 }
 
-.bp-tool-divider {
+.tool-divider {
   border-radius: 2px;
   min-width: 0.25vw;
   height: 5vw;
@@ -246,6 +246,89 @@ span {
   margin-right: 0.75%;
 }
 
+h4 {
+  font-size: 5vw;
+  font-family: "Poppins", "Sans Serif";
+  letter-spacing: 1vw;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+}
+
+.sp-flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  /* margin-bottom: 64px; */
+}
+
+.sp-container {
+  background-color: rgba(0, 3, 12, 0.647);
+  border: solid;
+  border-color: #45556c27;
+  border-width: 0.4vw;
+  border-radius: 24px;
+  color: whitesmoke;
+  font-family: "Roboto", "Sans Serif";
+  width: 320px;
+  /* height: 420px; */
+  padding: 20px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 8vw;
+}
+
+.sp-title {
+  font-size: 36px;
+  line-height: 36px;
+  font-family: "Poppins", "Sans Serif";
+  padding-bottom: 14px;
+}
+
+.sp-description {
+  font-size: 18px;
+}
+
+.sp-container ul {
+  text-align: left;
+  padding-left: 14px;
+  margin-top: 14px;
+}
+
+.sp-container li {
+  padding-bottom: 4px;
+}
+
+.sp-container img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.sp-container .tool-icon-container {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.sp-container .tool-icon {
+  height: 64px;
+  max-height: 120px;
+  margin-left: 8px;
+  margin-right: 8px;
+  /* fill: whitesmoke; */
+}
+
+.sp-container .tool-divider {
+  /* background-color: whitesmoke; */
+  height: 56px;
+  max-height: 80px;
+  width: 3px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
@@ -259,15 +342,15 @@ span {
   border-bottom-width: 0;
   border-color: #45556c27;
   width: 100%;
-  padding-top: 0.4vw;
+  padding-top: 0.2vw;
 }
 
 .footer p {
   font-size: 40px;
-  color: #c6cdff;
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding-right: 2vh;
+  padding-bottom: 0.2vw;
 }
 
 /* Mobile Optimizations */
@@ -335,11 +418,11 @@ span {
     margin-bottom: 2%;
   }
 
-  .bp-tool-icon-container {
+  .tool-icon-container {
     margin-bottom: 2%;
   }
 
-  .bp-tool-icon {
+  .tool-icon {
     height: 12vw;
     margin-left: 1vw;
     margin-right: 1vw;
@@ -358,6 +441,14 @@ span {
     height: 28vw;
   }
 
+  h4 {
+    font-size: 6.8vw;
+  }
+
+  .sp-flex {
+    margin-bottom: 96px;
+  }
+
   .footer {
     background-color: rgba(0, 3, 12, 0.95);
     z-index: 2;
@@ -371,7 +462,7 @@ span {
   }
 }
 
-/* Stops the text from continuing to grow on wide screens. */
+/* Ultrawide Optimizations */
 @media screen and (min-width: 1920px) {
   header .social-link {
     width: 60px;
@@ -405,8 +496,23 @@ span {
     border-width: 4px;
   }
 
+  .bp-thumbnail-vertical {
+    border-width: 4px;
+  }
+
   .tool-divider {
     min-width: 4px;
+  }
+
+  .sp-container {
+    border-width: 4px;
+    margin-bottom: 32px;
+  }
+
+  h4 {
+    font-size: 72px;
+    margin-top: 128px;
+    margin-bottom: 48px;
   }
 
   .footer p {

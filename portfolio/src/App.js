@@ -25,6 +25,9 @@ import solutions_03 from "./images/screenshots/solutions_03.jpg";
 import photoreal_01 from "./images/screenshots/photoreal_01.jpg";
 import photoreal_02 from "./images/screenshots/photoreal_02.jpg";
 import photoreal_03 from "./images/screenshots/photoreal_03.jpg";
+import scheduler_01 from "./images/screenshots/scheduler_01.jpg";
+import tagger_01 from "./images/screenshots/tagger_01.jpg";
+import pomelo_01 from "./images/screenshots/pomelo_01.jpg";
 // import React, { useEffect, useState } from "react";
 import * as svg_images from "./svg-images";
 import "./App.css";
@@ -40,6 +43,7 @@ function App() {
   // }, []);
 
   var bio_accent = "#c6cdff";
+  var bright_accent = "#dbe0ff";
   var newlands_accent = "#C6E3FF";
   var solutions_accent = "#DFC6FF";
   var photoreal_accent = "#FFC6FB";
@@ -53,14 +57,16 @@ function App() {
           target="_blank"
           rel="noreferrer"
         >
-          <span style={{ fill: bio_accent }}>{svg_images.linkedin_logo}</span>
+          <span style={{ fill: bright_accent }}>
+            {svg_images.linkedin_logo}
+          </span>
         </a>
 
         <a href="https://github.com/CyanVoxel" target="_blank" rel="noreferrer">
-          <span style={{ fill: bio_accent }}>{svg_images.github_logo}</span>
+          <span style={{ fill: bright_accent }}>{svg_images.github_logo}</span>
         </a>
         <a href="mailto:lvnvtravis@gmail.com">
-          <span style={{ fill: bio_accent }}>{svg_images.email_logo}</span>
+          <span style={{ fill: bright_accent }}>{svg_images.email_logo}</span>
         </a>
       </header>
 
@@ -68,9 +74,11 @@ function App() {
       <div className="intro-container">
         <img src={inset_logo} className="intro-profile" alt="" />
         <div className="text-container">
-          <p className="hello-text">Hi there, I'm</p>
+          <p className="hello-text" style={{ color: solutions_accent }}>
+            Hi there, I'm
+          </p>
           <p className="name-text">Travis Abendshien_</p>
-          <p className="bio-text">
+          <p className="bio-text" style={{ color: bio_accent }}>
             I'm a software engineer with a passion for working on anything from
             games to utilities. Here are a few of the things I've worked on:
           </p>
@@ -102,12 +110,12 @@ function App() {
                   GitHub Link
                 </a>
               </p>
-              <div className="bp-tool-icon-container">
+              <div className="tool-icon-container">
                 <span style={{ fill: newlands_accent }}>
                   {svg_images.c_sharp_logo}
                 </span>
                 <div
-                  className="bp-tool-divider"
+                  className="tool-divider"
                   style={{ backgroundColor: newlands_accent }}
                 ></div>
                 <span style={{ fill: newlands_accent }}>
@@ -159,7 +167,7 @@ function App() {
                   Play in Browser!
                 </a>
               </p>
-              <div className="bp-tool-icon-container">
+              <div className="tool-icon-container">
                 <span style={{ fill: solutions_accent }}>
                   {svg_images.c_sharp_logo}
                 </span>
@@ -167,7 +175,7 @@ function App() {
                   {svg_images.javascript_logo}
                 </span>
                 <div
-                  className="bp-tool-divider"
+                  className="tool-divider"
                   style={{ backgroundColor: solutions_accent }}
                 ></div>
                 <span style={{ fill: solutions_accent }}>
@@ -230,15 +238,27 @@ function App() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  View Demo on YouTube!
+                  View Demo on YouTube
+                </a>
+                &nbsp;•&nbsp;
+                <a
+                  style={{
+                    color: "#61dafb",
+                    textDecoration: "underline",
+                  }}
+                  href="https://github.com/CyanVoxel/PhotoReal"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub Link
                 </a>
               </p>
-              <div className="bp-tool-icon-container">
+              <div className="tool-icon-container">
                 <span style={{ fill: photoreal_accent }}>
                   {svg_images.swift_logo}
                 </span>
                 <div
-                  className="bp-tool-divider"
+                  className="tool-divider"
                   style={{ backgroundColor: photoreal_accent }}
                 ></div>
                 <span style={{ fill: photoreal_accent }}>
@@ -255,21 +275,145 @@ function App() {
         </div>
       </div>
 
-      <footer className="footer">
-        <p>Get in touch:</p>
+      <h4 style={{ color: photoreal_accent }}>—OTHER PROJECTS—</h4>
+
+      {/* Appointment Scheduler */}
+      <div className="sp-flex">
+        <div className="sp-container">
+          <div className="sp-title" style={{ color: newlands_accent }}>
+            APPOINTMENT SCHEDULER
+          </div>
+          <div className="sp-description" style={{ color: bright_accent }}>
+            <i>
+              Developed a Java + JavaFX application that allows users to create
+              and access company appointments and customer entries.
+            </i>
+            <ul>
+              <li>
+                Used Resource Bundles to provide date, time, and language
+                localization
+              </li>
+              <li>
+                Utilized a MySQL database for organized data storage and
+                retrieval
+              </li>
+              <li>
+                Implemented a report generation feature that includes custom
+                filtering
+              </li>
+            </ul>
+            <img src={scheduler_01} alt="" />
+          </div>
+          <div className="tool-icon-container">
+            <span style={{ fill: newlands_accent }}>
+              {svg_images.java_logo}
+            </span>
+            <span style={{ fill: newlands_accent }}>{svg_images.sql_logo}</span>
+          </div>
+        </div>
+
+        {/* Image Tagger */}
+        <div className="sp-container">
+          <div className="sp-title" style={{ color: solutions_accent }}>
+            IMAGE TAGGER
+          </div>
+          <div className="sp-description" style={{ color: bright_accent }}>
+            <i>
+              Developed a Python tool to build metadata-rich image libraries
+              that adds tags, titles, descriptions, and more to photos.
+            </i>
+            <ul>
+              <li>
+                Created a custom image tagging solution featuring a simple
+                interface that allows for the efficient tagging and organization
+                of photos
+              </li>
+              <li>
+                Designed a JSON-based savefile system with the purpose of being
+                portable, expandable, human readable, and backwards compatible
+              </li>
+              <li>
+                Integrated{" "}
+                <a
+                  href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/"
+                  style={{ color: "#61dafb", textDecoration: "underline" }}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Beautiful Soup
+                </a>{" "}
+                to automatically scrape source websites for quick & easy
+                metadata retrieval
+              </li>
+            </ul>
+            <img src={tagger_01} alt="" />
+          </div>
+          <div className="tool-icon-container">
+            <span style={{ fill: solutions_accent }}>
+              {svg_images.python_logo}
+            </span>
+          </div>
+        </div>
+
+        {/* Discord Pomodoro Bot */}
+        <div className="sp-container">
+          <div className="sp-title" style={{ color: photoreal_accent }}>
+            DISCORD POMODORO BOT
+          </div>
+          <div className="sp-description" style={{ color: bright_accent }}>
+            <i>
+              Created a bot for Discord that allows the user to setup
+              Pomodoro-style timers to study or work with friends!
+            </i>
+            <ul>
+              <li>
+                Worked with the{" "}
+                <a
+                  href="https://discordpy.readthedocs.io/en/stable/index.html"
+                  style={{ color: "#61dafb", textDecoration: "underline" }}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Discord.py
+                </a>{" "}
+                API wrapper to connect the bot with Discord's services
+              </li>
+              <li>
+                Built a robust command input system that allows for complete
+                customization of the timers' settings
+              </li>
+              <li>
+                Created a tool used often by myself and friends to solve a need
+                in a novel way
+              </li>
+            </ul>
+            <img src={pomelo_01} alt="" />
+          </div>
+          <div className="tool-icon-container">
+            <span style={{ fill: photoreal_accent }}>
+              {svg_images.python_logo}
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <footer className="footer" style={{ color: bright_accent }}>
+        <p>Get in Touch:</p>
         <a
           href="https://www.linkedin.com/in/travis-abendshien"
           target="_blank"
           rel="noreferrer"
         >
-          <span style={{ fill: bio_accent }}>{svg_images.linkedin_logo}</span>
+          <span style={{ fill: bright_accent }}>
+            {svg_images.linkedin_logo}
+          </span>
         </a>
 
         <a href="https://github.com/CyanVoxel" target="_blank" rel="noreferrer">
-          <span style={{ fill: bio_accent }}>{svg_images.github_logo}</span>
+          <span style={{ fill: bright_accent }}>{svg_images.github_logo}</span>
         </a>
         <a href="mailto:lvnvtravis@gmail.com">
-          <span style={{ fill: bio_accent }}>{svg_images.email_logo}</span>
+          <span style={{ fill: bright_accent }}>{svg_images.email_logo}</span>
         </a>
       </footer>
     </div>
