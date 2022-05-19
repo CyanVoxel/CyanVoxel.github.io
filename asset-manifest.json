@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab75d130.css",
-    "main.js": "/static/js/main.3de0024e.js",
+    "main.css": "/static/css/main.ac8aca2b.css",
+    "main.js": "/static/js/main.bce12169.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/shard_03.png": "/static/media/shard_03.e73ef05b37ec506b7067.png",
     "static/media/newlands_03.jpg": "/static/media/newlands_03.04dff3922c38f621fab6.jpg",
@@ -15,14 +15,17 @@
     "static/media/solutions_03.jpg": "/static/media/solutions_03.f18bc2197f3768b0b857.jpg",
     "static/media/photoreal_02.jpg": "/static/media/photoreal_02.b38705f35e7b758f5108.jpg",
     "static/media/solutions_01.jpg": "/static/media/solutions_01.ecb5f3d8a31be7f4135b.jpg",
+    "static/media/tagger_01.jpg": "/static/media/tagger_01.3a8c021ff04c86de0f20.jpg",
     "static/media/solutions_02.jpg": "/static/media/solutions_02.63e7d21e2e69da1ddce4.jpg",
+    "static/media/pomelo_01.jpg": "/static/media/pomelo_01.f9573c75179c3984f345.jpg",
+    "static/media/scheduler_01.jpg": "/static/media/scheduler_01.1443c64d8cc38c125fca.jpg",
     "index.html": "/index.html",
-    "main.ab75d130.css.map": "/static/css/main.ab75d130.css.map",
-    "main.3de0024e.js.map": "/static/js/main.3de0024e.js.map",
+    "main.ac8aca2b.css.map": "/static/css/main.ac8aca2b.css.map",
+    "main.bce12169.js.map": "/static/js/main.bce12169.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab75d130.css",
-    "static/js/main.3de0024e.js"
+    "static/css/main.ac8aca2b.css",
+    "static/js/main.bce12169.js"
   ]
 }
