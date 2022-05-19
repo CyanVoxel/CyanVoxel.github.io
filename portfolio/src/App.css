@@ -360,10 +360,7 @@ h4 {
   }
 
   .intro-container {
-    margin-top: 12%;
-    margin-bottom: 12%;
-    margin-left: 4%;
-    margin-right: 24;
+    margin: 12% 4% 12% 4%;
   }
 
   .intro-profile {
