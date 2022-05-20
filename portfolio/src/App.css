@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
+:root {
+  color-scheme: dark;
+}
+
 span {
   display: inline-block;
 }
@@ -87,7 +91,7 @@ span {
 
 .bio-text {
   /* color: #c6cdff; */
-  font-size: 2vw;
+  font-size: 1.9vw;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   text-align: left;
@@ -100,7 +104,7 @@ span {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  max-width: 1920px;
+  max-width: 100%;
   margin-top: 10%;
 }
 
@@ -460,7 +464,13 @@ h4 {
 }
 
 /* Ultrawide Optimizations */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 2100px) {
+  .header {
+    right: 15%;
+    border-radius: 0px 0px 24px 24px;
+    padding: 8px;
+  }
+
   header .social-link {
     width: 60px;
     height: 60px;
@@ -480,9 +490,16 @@ h4 {
     font-size: 40px;
   }
 
+  .bp-container {
+    max-width: 1920px;
+  }
+
   .bp-description-bg {
     border-top-width: 4px;
     border-bottom-width: 4px;
+    border-right-width: 4px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
   }
 
   .bp-description-container p {
