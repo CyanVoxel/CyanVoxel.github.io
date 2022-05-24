@@ -175,8 +175,8 @@ span {
   align-content: center;
   background-color: rgba(0, 3, 12, 0.647);
   border: solid;
-  border-top-width: 0.4vw;
-  border-bottom-width: 0.4vw;
+  border-top-width: 4px;
+  border-bottom-width: 4px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #45556c27;
@@ -224,7 +224,7 @@ span {
 
 .bp-thumbnail {
   border: solid;
-  border-width: 0.4vw;
+  border-width: 4px;
   border-color: #45556c27;
   border-radius: 8px;
   object-fit: cover;
@@ -238,7 +238,7 @@ span {
 
 .bp-thumbnail-vertical {
   border: solid;
-  border-width: 0.4vw;
+  border-width: 4px;
   border-color: #45556c27;
   border-radius: 8px;
   object-fit: cover;
@@ -272,7 +272,7 @@ h4 {
   background-color: rgba(0, 3, 12, 0.647);
   border: solid;
   border-color: #45556c27;
-  border-width: 0.4vw;
+  border-width: 4px;
   border-radius: 24px;
   color: whitesmoke;
   font-family: "Roboto", "Sans Serif";
@@ -409,6 +409,11 @@ h4 {
     max-height: 400px;
   }
 
+  .bp-description-bg {
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+  }
+
   .bp-description-container {
     width: 90%;
   }
@@ -430,16 +435,18 @@ h4 {
   }
 
   .tool-divider {
-    min-width: 0.4vw;
+    min-width: 3px;
     height: 10vw;
   }
 
   .bp-thumbnail {
     height: 16vw;
+    border-width: 3px;
   }
 
   .bp-thumbnail-vertical {
     height: 28vw;
+    border-width: 3px;
   }
 
   h4 {
@@ -450,8 +457,13 @@ h4 {
     margin-bottom: 96px;
   }
 
+  .sp-container {
+    border-width: 3px;
+  }
+
   .footer {
     background-color: rgba(0, 3, 12, 0.95);
+    border-top-width: 3px;
     z-index: 2;
     position: fixed;
     bottom: 0;
@@ -468,6 +480,7 @@ h4 {
   .header {
     right: 15%;
     border-radius: 0px 0px 24px 24px;
+    border-right-width: 4px;
     padding: 8px;
   }
 
@@ -514,8 +527,16 @@ h4 {
     border-width: 4px;
   }
 
+  .tool-icon {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
   .tool-divider {
     min-width: 4px;
+    height: 96px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 
   .sp-container {
