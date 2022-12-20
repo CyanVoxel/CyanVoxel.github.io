@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.25f030fc.css",
-    "main.js": "/static/js/main.bce12169.js",
+    "main.css": "/static/css/main.368db717.css",
+    "main.js": "/static/js/main.955d7276.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/shard_03.png": "/static/media/shard_03.e73ef05b37ec506b7067.png",
+    "static/media/profile.png": "/static/media/profile.35378c43993eb73d6de8.png",
     "static/media/newlands_03.jpg": "/static/media/newlands_03.04dff3922c38f621fab6.jpg",
     "static/media/photoreal_01.jpg": "/static/media/photoreal_01.cd9166c44527ee46c120.jpg",
     "static/media/newlands_01.jpg": "/static/media/newlands_01.78d30e861fd8c9a85ead.jpg",
-    "static/media/shard_01.png": "/static/media/shard_01.89da8516a5383be389b4.png",
-    "static/media/inset_logo.png": "/static/media/inset_logo.c66dd2f60f08c04db119.png",
-    "static/media/shard_02.png": "/static/media/shard_02.5e9bbdf356bfd337e646.png",
+    "static/media/website_01.jpg": "/static/media/website_01.ba58db1d196b37a29982.jpg",
+    "static/media/solutions_04.jpg": "/static/media/solutions_04.028855ef93dc53f6f255.jpg",
     "static/media/newlands_02.jpg": "/static/media/newlands_02.a4649c985dc733093e6b.jpg",
     "static/media/photoreal_03.jpg": "/static/media/photoreal_03.7931b360dd854bbe85b3.jpg",
     "static/media/solutions_03.jpg": "/static/media/solutions_03.f18bc2197f3768b0b857.jpg",
     "static/media/photoreal_02.jpg": "/static/media/photoreal_02.b38705f35e7b758f5108.jpg",
+    "static/media/tagstudio_01.png": "/static/media/tagstudio_01.74f0362567afad26bb17.png",
     "static/media/solutions_01.jpg": "/static/media/solutions_01.ecb5f3d8a31be7f4135b.jpg",
-    "static/media/tagger_01.jpg": "/static/media/tagger_01.3a8c021ff04c86de0f20.jpg",
     "static/media/solutions_02.jpg": "/static/media/solutions_02.63e7d21e2e69da1ddce4.jpg",
     "static/media/pomelo_01.jpg": "/static/media/pomelo_01.f9573c75179c3984f345.jpg",
     "static/media/scheduler_01.jpg": "/static/media/scheduler_01.1443c64d8cc38c125fca.jpg",
+    "static/media/apriori_01.png": "/static/media/apriori_01.d5de066303663115e3fb.png",
     "index.html": "/index.html",
-    "main.25f030fc.css.map": "/static/css/main.25f030fc.css.map",
-    "main.bce12169.js.map": "/static/js/main.bce12169.js.map",
+    "main.368db717.css.map": "/static/css/main.368db717.css.map",
+    "main.955d7276.js.map": "/static/js/main.955d7276.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25f030fc.css",
-    "static/js/main.bce12169.js"
+    "static/css/main.368db717.css",
+    "static/js/main.955d7276.js"
   ]
 }
