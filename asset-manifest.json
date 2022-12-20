@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.368db717.css",
-    "main.js": "/static/js/main.955d7276.js",
+    "main.js": "/static/js/main.8a3bf1b2.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/profile.png": "/static/media/profile.35378c43993eb73d6de8.png",
     "static/media/newlands_03.jpg": "/static/media/newlands_03.04dff3922c38f621fab6.jpg",
     "static/media/photoreal_01.jpg": "/static/media/photoreal_01.cd9166c44527ee46c120.jpg",
     "static/media/newlands_01.jpg": "/static/media/newlands_01.78d30e861fd8c9a85ead.jpg",
+    "static/media/profile.png": "/static/media/profile.2800247ea466f9e125bb.png",
     "static/media/website_01.jpg": "/static/media/website_01.ba58db1d196b37a29982.jpg",
     "static/media/solutions_04.jpg": "/static/media/solutions_04.028855ef93dc53f6f255.jpg",
     "static/media/newlands_02.jpg": "/static/media/newlands_02.a4649c985dc733093e6b.jpg",
@@ -21,11 +21,11 @@
     "static/media/apriori_01.png": "/static/media/apriori_01.d5de066303663115e3fb.png",
     "index.html": "/index.html",
     "main.368db717.css.map": "/static/css/main.368db717.css.map",
-    "main.955d7276.js.map": "/static/js/main.955d7276.js.map",
+    "main.8a3bf1b2.js.map": "/static/js/main.8a3bf1b2.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.368db717.css",
-    "static/js/main.955d7276.js"
+    "static/js/main.8a3bf1b2.js"
   ]
 }
